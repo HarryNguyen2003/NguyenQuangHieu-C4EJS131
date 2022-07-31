@@ -1,1 +1,185 @@
-321
+body{
+    position:relative;
+    top: 0;
+    padding: 0;
+    margin: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.sidebar{
+    
+    display:flex;
+    justify-content: space-between;
+    background-color:goldenrod;
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    position:sticky;
+    top:0;
+    border: 1px solid black;
+}
+.Logo{
+    font-weight: 600;
+    height: 70px;
+    width: 260px;
+    text-align:center;
+    line-height:80px;
+}
+.sidebar__list{
+    display:inline-block;
+    list-style-type: none;
+}
+.line-sidebar{
+    border-left:1px solid black;
+}
+.sidebar__list{
+    padding:0 70px;
+}
+#home{
+    background-color: black;
+    padding:80px 0;
+}
+.home{
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+#about{
+    border-top:1px solid white;
+    background-color: black;
+}
+.title__name__first{
+    margin: 0;
+    font-size: 46px;
+    color: goldenrod;
+    padding-top: 60px;
+    text-align: center;
+}
+hr{
+    width: 85px;
+    border:1px solid goldenrod;
+    
+}
+.about__content{
+    display: flex;
+    justify-content:center;
+    padding-top:60px;
+    padding-bottom: 40px;
+}
+.about__content__img{
+    width: 25%;
+    padding-right: 150px;
+}
+.about__content-children{
+    font-size:20px;
+    color:white;
+}
+.style_author{
+    font-weight: 700;
+}
+.title__name__second{
+    margin:0;
+    font-size: 46px;
+    color:black;
+    padding-top: 60px;
+    text-align: center;
+}
+#project{
+    background-color: goldenrod;
+}
+.hr__second{
+    width: 85px;
+    border:1px solid black;   
+}
+#project__content{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+ul{
+    list-style-type: none;
+}
+.project__content__list{
+    padding: 12px;
+}
+.project__list__link{
+    font-size: 24px;
+}
+.project__img{
+    width: 25%;
+    margin-left:500px;
+}
+#achievement{
+    background-color: black;
+    padding-bottom: 40px;
+}
+.achievement__content{
+    color:white;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.achievement__content-list{
+    list-style-type:inherit !important;
+}
+.achievement__list-second{
+    list-style-type:circle !important;
+}
+.paddingTop40px{
+    padding-top: 40px;
+}
+.marginBottom40px{
+    margin-bottom: 40px;
+}
+#contact{
+    background-color: goldenrod;
+    padding-bottom: 40px;
+}
+
+.contact__form{
+    margin: auto;
+    width: 400px;
+    background-color: black;
+    padding: 30px 0;
+}
+h3{
+    max-width: 10px;
+    color:goldenrod;
+    padding:20px 40px 20px 20px;
+    display: inline-flex;
+    min-width: 40px;
+    margin: 0;
+}
+input{
+    width: 260px;
+    height: 20px;
+}
+.input__message{
+    height: 50px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    margin-right: 28px;
+}
+button{
+    background-color: goldenrod;
+    border: none;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.footer{
+    background-color: black;
+    height: 50px;
+}
+.reserved{
+    margin: 0;
+    color: goldenrod;
+    font-size: 24px;
+    line-height: 50px;
+}
