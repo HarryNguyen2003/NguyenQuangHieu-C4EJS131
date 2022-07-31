@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: gray;
+}
+#container{
+    width: 300px;
+    height: 740px;
+    background-color: white;
+    margin: auto;
+    padding: 40px;
+}
+h6{
+    margin: 0;
+}
+#birth{
+    margin:20px 0;
+}
+#information-user{
+    padding:20px 0;
+}
+.requiment_children{
+    font-size: 16px;
+}
+#form-input{
+    width: 300px;
+    height: 30px;
+}
+select{
+    width: 97px;
+    height: 30px;
+}
+#footer{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#button{
+    cursor: pointer;
+    padding: 10px 40px;
+    margin:auto;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: green;
+    border: solid;
+}
