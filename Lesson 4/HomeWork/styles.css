@@ -3,10 +3,17 @@ html{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+body{
+    height: 1000px;
+    color:black;
+}
 .header{
     padding:20px 0;
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
+
 }
 .header__logo{
     width: 4%;
@@ -30,12 +37,15 @@ button:hover{
     background-color:rgba(53,161,99,1);
 }
 .nav{
-    margin-top: 4px;
     height:62px;
     display:flex;
+    width:100%;
     justify-content: space-between;
     background-color: black;
     color: white;
+    position:fixed;
+    top:0px;
+    z-index: 2;
 }
 ul{
     padding: 0;
@@ -55,4 +65,8 @@ a{
 }
 a:hover{
     background-color:rgba(53,161,99,1);
+}
+.k{
+    height: 100000px;;
+    background-color:blue;
 }
