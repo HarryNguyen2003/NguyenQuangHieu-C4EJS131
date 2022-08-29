@@ -1,0 +1,33 @@
+.changeColor{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bgrColor{
+    background-color: goldenrod;
+}
+.buttonColor{
+    text-align: center;
+    line-height: 48px;
+    width:126px;
+    height: 48px;
+    font-size: 18px;
+    border: none;
+    background-color:black;
+    color: yellow;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.changeValue{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+#btn{
+    width: 96px;
+    height: 48px;
+    font-size: 24px;
+    cursor: pointer;
+}
